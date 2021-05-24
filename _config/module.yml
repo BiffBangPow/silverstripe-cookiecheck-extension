@@ -1,0 +1,38 @@
+---
+Name: cookiecheck-extension
+---
+
+Page:
+  extensions:
+    - BiffBangPow\Extension\CookieCheckExtension
+
+
+Broarm\CookieConsent\CookieConsent:
+  create_default_pages: true
+  include_javascript: false
+  cookies:
+    Necessary:
+      local:
+        - CookieConsent
+        - PHPSESSID
+    Marketing:
+      local:
+        - APSID
+        - GPS
+        - HSID
+        - IDE
+        - SAPISID
+        - NID
+        - PREF
+        - SID
+        - SIDCC
+        - SSID
+        - VISITOR_INFO1_LIVE
+        - YSC
+    Analytics:
+      local:
+        - AMP_TOKEN
+        - _ga
+        - _gac_property_id
+        - _gat
+        - _gid

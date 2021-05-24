@@ -1,6 +1,6 @@
 {
-  "name": "biffbangpow/silverstripe-extensionmodule-template",
-  "description": "A basic skeleton for a Silverstripe 4 extension module",
+  "name": "biffbangpow/silverstripe-cookiecheck-extension",
+  "description": "Cookie check extension",
   "type": "silverstripe-vendormodule",
   "minimum-stability": "dev",
   "license": "proprietary",
@@ -16,7 +16,8 @@
   ],
   "require": {
     "silverstripe/vendor-plugin": "^1.0",
-    "silverstripe/cms": "^4"
+    "silverstripe/cms": "^4",
+    "bramdeleeuw/cookieconsent": "^2.0"
   },
   "autoload": {
     "psr-4": {
