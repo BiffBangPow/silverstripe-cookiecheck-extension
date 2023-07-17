@@ -17,7 +17,7 @@
   "require": {
     "silverstripe/vendor-plugin": "^1.0",
     "silverstripe/cms": "^4",
-    "bramdeleeuw/cookieconsent": "^2.0"
+    "bramdeleeuw/cookieconsent": "^3.0"
   },
   "autoload": {
     "psr-4": {
